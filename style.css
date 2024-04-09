@@ -1,0 +1,44 @@
+body{
+    font-family: "Hiragino Kaku Gothic ProN","メイリオ","sans-self";
+}
+
+h1{
+    margin:0 auto;
+    font-size:20px;
+    border-left:4px solid red;
+    background-color:#f1f1f1;
+    width:500px;
+    margin-top:20px;
+    margin-bottom:20px;
+    padding-top:5px;
+    padding-left:15px;
+    padding-bottom:5px;
+}
+
+form{
+    background-color: #fbfbfb;
+    margin:0 auto;
+    border:3px solid #ebebeb;
+    border-radius:10px;          /*radiusは丸みの度合い*/
+    width:500px;  　　    /*margin０autoとwidthは一緒に設定しないと効かない？かも*/
+}
+
+form div{
+    padding:15px;   
+}
+
+.text,textarea,.dropdown{
+    color:#999;   
+    background:#fff;
+    border:1px solid #dfdfdf;
+    padding:5px;
+}
+
+.submit{
+    color:white;
+    background-color: #dfdfdf;
+    border: 1px solid lightgray;
+    border-radius:5px;
+    padding:4px 10px;
+    border-bottom:2px solid gray;
+}
